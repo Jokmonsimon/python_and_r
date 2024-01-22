@@ -1,0 +1,99 @@
+# Understanding Variables in R
+- Hello, everyone! Welcome back to our Python and R for Machine Learning in 500 Days Fast Track Challenge. 
+- Today, we are going to explore the fundamental concept of variables in R—a crucial aspect of programming.
+
+# What are Variables?
+- So, what exactly are variables? 
+- In programming, variables are like containers that store and manage data. 
+- They give us a way to name and refer to values or objects in our code.
+
+# Variables Naming Rules in R
+- Before we dive into examples, let us quickly go over the rules for naming variables in R.
+- Variable names must start with a letter or a dot.
+- The rest of the variable name can include letters, numbers, dots, and underscores.
+- Variable names are case-sensitive.
+
+# E.g. 1: Variable Assignment in R
+- Let us start with a simple example. 
+- In R we assign values to variables using the less-than and hyphen symbols, `<-`. 
+- Alternatively, you can use the equal sign, `=`.
+
+```{r}
+# Variable assignment in R
+day <- 1
+activity <- "Running"
+distance_km <- 5.74
+avg_pace_sec <- 220
+```
+
+- Here, `day` is assigned the value `1`, `activity` is assigned the string `“Running”`, `distance_km` is assigned `5.74`, and `avg_pace_sec` assigned `220`.
+
+# E.g. 2: Display Variables in R
+- To see the values stored in variables, we can use the `cat()` function or simply type the variable name.
+
+```{r}
+# Display variable in R
+cat("Day:", day, "\n")
+cat("Activity:", activity, "\n")
+cat("Distance (Km):", distance_km, "\n")
+cat("Average Pace Per Km (Sec):", avg_pace_sec, "\n")
+```
+
+- This code will print the values of our variables to the console.
+
+# E.g. 3: Variable Reassignment in R
+- In R, you can re-assign values to variables, and the variable type can change dynamically.
+
+```{r}
+# Update variable 
+day <- 7
+activity <- "Time Trial"
+distance_km <- 5.53
+avg_pace_sec <- 200
+
+# Display updated variables
+cat("Updated Day:", day, "\n")
+cat("Updated Activity:", activity, "\n")
+cat("Updated Distance (Km):", distance_km, "\n")
+cat("Updated Average Pace Per Km (Sec):", avg_pace_sec, "\n")
+```
+
+- Here, we have updated the values of `day`, `activity`, `distance_km`, and `avg_pace_sec`.
+
+# E.g. 4: Variable Deletion in R
+- While it is not something you will do frequently, you can remove variables using the `rm()` function in R.
+
+```{r}
+# Assign variable in R
+day <- 8
+cat("Day before Deletion:", day, "\n")
+
+# Delete variable in R
+rm(day)
+
+# Uncomment the below code! What do you see when you display the variable day again?
+# cat("Day after Deletion:", day, "\n")
+```
+
+- The `rm()` function is used to delete the variable `day` in this example.
+
+# In Summary
+- Fantastic! In this session, we have covered the basics of variables in R—how to assign values, display them, reassign values, and even delete variables.
+- As you continue on your coding journey, remember that variables play a central role in programming. 
+- In our next session, we will explore different Data Types, in both Python and R, so stay tuned. 
+- Happy coding!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
