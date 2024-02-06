@@ -7,7 +7,7 @@ end_time = "06:23"
 description = "Set a new world record in 1500m by December 31, 2024"
 heart_points = 52
 steps = 4593
-app_comment = "You stepped it up a gear!"
+comment = "You stepped it up a gear!"
 active_time_hr = "0:27:17"
 distance_km = 6.89
 energy_expended_cal = 406
@@ -22,7 +22,7 @@ print("End time:", end_time)
 print("Description:", description)
 print("Heart points:", heart_points)
 print("Steps:", steps)
-print("App comment:", app_comment)
+print("Comment:", comment)
 print("Active time:", active_time_hr)
 print("Distance (Km):", distance_km)
 print("Energy expended:", energy_expended_cal)
